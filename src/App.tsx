@@ -8,13 +8,13 @@ export default function App() {
 
       <div className={styles.card}>
         <p>
-          <strong>Name:</strong> Your Name Here
+          <strong>Name:</strong> Urooj Fatima
         </p>
         <p>
-          <strong>Section:</strong> 1 or 2
+          <strong>Section:</strong> A/1
         </p>
         <p>
-          <strong>Project:</strong> Your Project Name
+          <strong>Project:</strong> my-project-fronted
         </p>
       </div>
     </div>

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Flow</title>
+    <link rel="stylesheet" href="style1.css">
+    
+</head>
+
+<body>
+    <!--1 Header Section -->
+   <header>
+    <div class="header-left">
+        <div class="logo">TF</div>
+        <div class="title-group">
+            <h1>Task Flow (Section A)</h1>
+            <p>Demo Project | CS4717</p>
+        </div>
+    </div>
+
+    <button id="startButton">Logout</button>
+</header>
+   <!--2 Navigation Bar -->
+    <nav class="navbar">
+        <a href="#">Dahsboard </a> 
+        <a href="#">Task </a>
+        <a href="#">New Task </a>
+    
+    </nav>
+    <div class="container">
+    <!--3 Main Content Area -->
+
+    <main>
+    <h2>Phase 1 UI</h2>
+    <p>Show 5 hard-coded items (placeholders)</p>
+
+    <!-- THIS is the flex container -->
+    <div class="main-content">
+
+        <!-- LEFT -->
+        <div class="card">
+            <h3>My Tasks</h3>
+            <ul id="taskList">
+                <li>
+                    <strong>Task #1: &lt;title&gt;</strong>
+                    <button class="delete">Delete</button>
+                    <span class="status">&lt;status&gt;</span>
+                    <span class="date">due date</span>
+                </li>
+                <li>
+                    <strong>Task #2: &lt;title&gt;</strong>
+                    <button class="delete">Delete</button>
+                    <span class="status">&lt;status&gt;</span>
+                    <span class="date">due date</span>
+                </li>
+                <li>
+                    <strong>Task #3: &lt;title&gt;</strong>
+                    <button class="delete">Delete</button>
+                    <span class="status">&lt;status&gt;</span>
+                    <span class="date">due date</span>
+                </li>
+                <li>
+                    <strong>Task #4: &lt;title&gt;</strong>
+                    <button class="delete">Delete</button>
+                    <span class="status">&lt;status&gt;</span>
+                    <span class="date">due date</span>
+                </li>
+                <li>
+                    <strong>Task #5: &lt;title&gt;</strong>
+                    <button class="delete">Delete</button>
+                    <span class="status">&lt;status&gt;</span>
+                    <span class="date">due date</span>
+                </li>
+            </ul>
+        </div>
+
+        <!-- RIGHT -->
+        <div class="card">
+            <h3>Create Task</h3>
+            <p>Form UI only (no submit yet)</p>
+
+           <form id="taskForm">
+    <label>Title</label>
+    <input type="text" id="title" placeholder="Enter title">
+
+    <label>Category</label>
+    <select id="category">
+        <option>Select Category</option>
+        <option>Lecture</option>
+        <option>Assignment</option>
+        <option>Quiz</option>
+    </select>
+
+    <label>Content</label>
+    <input type="text" id="content" placeholder="Enter content">
+
+    <div class="buttons">
+        <button id = "reset" type="reset">Clear</button>
+        <button  id = "submit" type="submit">Create Task</button>
+    </div>
+</form>
+        </div>
+
+    </div>
+</main>
+
+
+<footer>
+    <p class="left">&copy; 2026 Task Flow CS4717 - Web Technology 1</p>
+    <p class="right">Privacy</p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
